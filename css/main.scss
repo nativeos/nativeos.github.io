@@ -14,8 +14,11 @@ body {
   max-width: 780px;
   padding-left: 10px;
   padding-right: 10px;
-}
 
+  img {
+    max-width: 100%;
+  }
+}
 
 header.global {
   background: #99ccff;
@@ -90,6 +93,19 @@ a {
   color: blue;
   text-decoration: underline;
   &:hover, &:active { color: red; }
+}
+
+main.article {
+  header:after {
+    background-image: url('/assets/BAR1.PNG');
+    background-repeat: no-repeat;
+    height: 5px;
+    display: block;
+    content: '';
+  }
+  header p.abstract {
+    font-size: 1.25em;
+  }
 }
 
 hr { display: none; }

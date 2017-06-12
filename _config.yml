@@ -26,6 +26,11 @@ collections:
       layout: docs
     permalink: /:collection/:name/
     output: true
+  articles:
+    defaults:
+      layout: articles
+    permalink: /:collection/:name/
+    output: true
 
 # Build settings
 markdown: kramdown

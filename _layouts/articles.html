@@ -1,0 +1,28 @@
+---
+layout: page
+---
+
+<p>
+  <strong>You are here: </strong>
+
+  <img src="/assets/ICONS/DOCUMENT.PNG"> <a href="/articles/">Technical Articles</a> »
+  <img src="/assets/ICONS/DOCUMENT.PNG"> {{ page.title }}
+</p>
+
+<main class="article">
+
+<header>
+  <h1>{{ page.title }}</h1>
+
+  {% if page.description %}
+  <p class="abstract"><strong>Abstract</strong>.- {{ page.description }}</p>
+  {% endif %}
+
+  {% if page.updated_at %}
+  <p>Last Updated: {{ page.updated_at }}</p>
+  {% endif %}
+</header>
+
+</article>
+
+{{ content }}
