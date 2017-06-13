@@ -1,7 +1,7 @@
 ---
 layout: articles
 title: Setting up NativeOS on NetBeans
-description: The support for C/C++ and Assembly code in NativeOS is surprisingly well. If you want to hack NativeOS but you are afraid of more powerful tools such as Vim, NetBeans has features that makes it easy to start developing on any platform using a point and click user interface.
+description: The support for C/C++ and Assembly code in NetBeans is surprisingly well. If you want to hack NativeOS but you are afraid of more powerful tools such as Vim, NetBeans has features that makes it easy to start developing on any platform using a point and click user interface.
 category: Hacking
 updated_at: 2017-06-12 18:55
 ---
